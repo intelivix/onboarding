@@ -4,13 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyter = "*"
-pandas = "*"
-bokeh = "*"
-matplotlib = "*"
-numpy = "*"
+jupyter = "==1.0.0"
+pandas = "==0.24.1"
+bokeh = "==1.0.4"
+matplotlib = "==3.0.2"
+numpy = "==1.16.1"
+tqdm = "==4.31.1"
+ipywidgets = "==7.4.2"
+jupyter-contrib-nbextensions = "==0.5.1"
 
 [dev-packages]
+pytest = "==4.3.0"
 
 [requires]
 python_version = "3.6"
