@@ -1,0 +1,36 @@
+# 3 - NUVEM
+
+- AWS CLI
+- IAM
+
+- EC2
+- ROUTE 53
+- VPC
+- ELB
+- CLOUDWATCH
+
+- S3
+- GLACIER ???
+
+- RDS
+- DYNAMODB
+- DOCUMENTDB ???
+- REDSHIFT ???
+
+- ECR
+- EKS ???
+- EKS ???
+
+- ELASTICSEARCH SERVICE
+- ATHENA
+- EMR
+- KINESIS
+- DATA PIPELINE ???
+- GLUE ???
+
+- SQS
+- SNS
+- LAMBDA
+- STEP FUNCTIONS ???
+
+- BILLING
