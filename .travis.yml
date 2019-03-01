@@ -1,0 +1,24 @@
+# travis-ci onboarding
+
+sudo: required
+
+language: python
+
+python:
+  - 3.6
+
+before_install:
+  - echo "TRAVIS_BRANCH=$TRAVIS_BRANCH, PR=$PR, BRANCH=$BRANCH, TRAVIS_TAG=$TRAVIS_TAG"
+  - pip install --upgrade pip
+  - pip install pipenv
+  - pipenv install --system --dev
+  - make pep8
+
+script:
+  - make test
+
+after_success:
+  - echo "nothing to do!"
+
+notifications:
+  email: false
