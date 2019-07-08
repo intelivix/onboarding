@@ -14,4 +14,4 @@ class TestMarcelo():
 
     def test_marcelo_deu_bronca(self):
         with pytest.raises(Exception):
-            assert marcelo(0, None) == 'marcelo'
+            marcelo(0, None)
