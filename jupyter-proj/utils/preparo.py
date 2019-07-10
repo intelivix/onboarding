@@ -26,26 +26,26 @@ class Preparo:
 
     def avaliar(self):
         if len(self.ingredients_meat_stew) < 5:
-            return("falta ingredientes para a carne")
+            print("falta ingredientes para a carne")
 
         elif (self.slow_cook_oven == False):
-            return("carne dura")
+            print("carne dura")
 
         elif self.ingredients_pirao != ['salt','mandioca', 'stew_sauce']:
-            return("estão inventando a receita do pirão")
+            print("estão inventando a receita do pirão")
 
         elif self.quality_meat != "high":
-            return("carne ruim")
+            print("carne ruim")
 
         elif self.type_meat != "chambaril":
-            return("é apenas um cozido normal")
+            print("é apenas um cozido normal")
 
         elif self.ingredients_bought == False:
-            return("não fizeram compras")
+            print("não fizeram compras")
 
         else:
             self.good = True
-            return("o prato está bom")
+            print("o prato está bom")
 
     def do_a_chambaril(self):   
         self.buy_ingredients()
