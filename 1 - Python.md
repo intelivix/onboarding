@@ -138,12 +138,12 @@ $ pip install -U pip
     ```
 
 
-### [Pipsi](https://github.com/mitsuhiko/pipsi)
+### [PipX](https://github.com/pipxproject/pipx)
 
-1. Instalando Pipsi
+1. Instalando PipX
 
 ```bash
-$ curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
+$ pip install pipx
 ```
 
 *Ele utilizará o Python configurado como global pelo **Pyenv***
@@ -161,15 +161,17 @@ gpip() {
 }
 ```
 
-3. Instalando pacotes pelo Pipsi:
+3. Instalando pacotes pelo PipX:
 
-Os pacotes instalados pelo Pipsi ficam acessiveis para todos os ambientes.
+Os pacotes instalados pelo PipX ficam acessiveis para todos os ambientes.
 
 ```bash
-$ pipsi install <package>
+$ pipx install <package>
 ```
 *Lembrar que ele precisa de uma versão global para se apoiar. Não desinstale essa versão.*
 
+
+### PIP
 
 ### PIPENV
 
@@ -177,10 +179,21 @@ https://github.com/pypa/pipenv
 https://pipenv.readthedocs.io/en/latest/
 https://realpython.com/pipenv-guide/
 
-pipsi install pipenv
-pipenv install
-pipenv shell
-pipenv run
+```bash
+$ pipsi install pipenv
+```
+
+```bash
+$ pipenv install
+```
+
+```bash
+$ pipenv shell
+```
+
+```bash
+$ pipenv run
+```
 
 
 ```bash
@@ -202,8 +215,48 @@ $ jupyter nbextension list
 $ jupyter contrib nbextension install --sys-prefix
 $ jupyter nbextension enable widgetsnbextension --debug --sys-prefix --py
 ```
+
+### POETRY
+
+to be continued...
+
+### TÁ NA HORA DA REVISÃO!
+
+
+![TÁ NA HORA DA REVISÃO!](https://media.tenor.com/images/ad42d5e3398054a345e707a7a371aa09/tenor.gif "TÁ NA HORA DA REVISÃO!")
+
+- instalar a versão mais atual do python 2
+- instalar a versão mais atual do python 3
+- instalar a versão mais atual do miniconda
+- trocar a versão global para python 2
+- trocar a versão global para python 3
+
+- checar instalação do pipenv usando python 2:
+    - pipenv install
+    - youtube-dl https://www.youtube.com/watch\?v\=gLGQ_kxnwv4
+    - pipenv --venv
+    - pipenv --rm
+    - pipenv --venv
+    - pipenv install
+    - youtube-dl https://www.youtube.com/watch\?v\=gLGQ_kxnwv4
+
+- checar instalação do pipenv usando python 3:
+    - pipenv install
+    - youtube-dl https://www.youtube.com/watch\?v\=gLGQ_kxnwv4
+    - pipenv --venv
+    - pipenv --rm
+    - pipenv --venv
+    - pipenv install
+    - youtube-dl https://www.youtube.com/watch\?v\=gLGQ_kxnwv4
+
+- checar pacotes instalados pelo pipx:
+    - black
+    - httpie
+    - pipenv
+    - pycodestyle
+    - rows
+    - youtube-dl
+
 ### Referências
 
 [Guia do Henrique Bastos](https://medium.com/welcome-to-the-django/guia-definitivo-para-organizar-meu-ambiente-python-a16e2479b753)
-
-
