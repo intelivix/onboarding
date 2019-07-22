@@ -1,0 +1,16 @@
+{
+  "_source": {
+    "spider_name": "pjerj-consultar-processo",
+    "price": 0.002046497,
+    "justica": "Estadual",
+    "method": "deathbycaptcha",
+    "price_dbc_gold": 0.014575769999999998,
+    "fonte": "pjerj",
+    "collection_name": "extracao_nextel_base_civel",
+    "spider_id": "db601b4c25f711e8b1190242ac120004",
+    "webshooter_id": "786-ad58-b9602bfb29f1",
+    "estado": "SP",
+    "correct": true,
+    "duration_seconds": 5.8145
+  }
+}
